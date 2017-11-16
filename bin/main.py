@@ -1,13 +1,21 @@
+from bin.utils import write_json
 from spiders.cel import Cel
+import time
 
 
-def start_spiders():
-    cel = Cel()
-    cel.start_requests()
+class Main:
+    product_list = []
+
+    def spiders(self):
+        start_time = time.strftime("%d.%m.%Y-%H.%M")
+        cel = Cel(start_time)
+        self.product_list.extend(cel.start_requests())
+        write_json(start_time, self.product_list)
 
 
 def main():
-    start_spiders()
+    start = Main()
+    start.spiders()
 
 
 if __name__ == '__main__':
