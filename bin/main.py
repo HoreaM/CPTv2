@@ -1,6 +1,7 @@
-from bin.utils import write_json
-from spiders.cel import Cel
 import time
+
+from spiders.cel import Cel
+from utils.utils import write_json
 
 
 class Main:
