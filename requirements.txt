@@ -1,2 +1,6 @@
+w3lib
 requests
 beautifulsoup4
+boto
+jinja2
+pushbullet.py
