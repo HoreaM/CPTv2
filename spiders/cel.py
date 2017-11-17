@@ -28,6 +28,8 @@ class Cel(BaseSpider):
             prod['date'] = str(datetime.now())
             items.append(prod.copy())
         item = min(items, key=lambda x: x.get('price'))
+        print('cel' + product_name)
         print(items.__len__())
         print(item['price'])
+        print('________________')
         return item
