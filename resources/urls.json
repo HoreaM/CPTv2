@@ -1,19 +1,43 @@
 {
-    "GTX1070": [
+    "GTX 1070": [
       {
         "cel.ro" : "http://www.cel.ro/cauta/placi-video/gtx+1070/0c-1"
       },
       {
-        "emag.ro" : "https://www.emag.ro/placi_video/filter/procesor-video-f547,geforce-gtx-1070-v-3046533/sort-pricedesc/c"
+        "emag.ro" : "https://www.emag.ro/placi_video/filter/procesor-video-f547,geforce-gtx-1070-v-3046533/sort-priceasc/c"
+      },
+      {
+        "pcgarage.ro" : "https://www.pcgarage.ro/placi-video/filtre/model-model-geforce-gtx-1070/"
+      },
+      {
+        "altex.ro" : "https://altex.ro/search/filtru/cat/295-placi-video/order/price/dir/asc/?q=1070"
       }
     ],
 
-    "GTX1080": [
+    "GTX 1080": [
       {
         "cel.ro" : "http://www.cel.ro/cauta/placi-video/gtx+1080/0c-1"
       },
       {
-        "emag.ro" : "https://www.emag.ro/search/placi_video/filter/procesor-video-f547,nvidia-geforce-gtx-1080-v-4223795/procesor-video-f547,geforce-gtx-1080-v-3965362/procesor-video-f547,geforce-gtx-1080-v-3046291/gtx+1080/sort-priceasc/c"
+        "emag.ro" : "https://www.emag.ro/placi_video/filter/procesor-video-f547,nvidia-geforce-gtx-1080-v-4223795/procesor-video-f547,geforce-gtx-1080-v-3965362/procesor-video-f547,geforce-gtx-1080-v-3046291/sort-priceasc/c"
+      },
+      {
+        "pcgarage.ro" : "https://www.pcgarage.ro/placi-video/filtre/model-model-geforce-gtx-1080/"
+      },
+      {
+        "altex.ro" : "https://altex.ro/search/filtru/cat/295-placi-video/order/price/dir/asc/?q=1080"
+      }
+    ],
+
+    "Stock Triwa Walter Falken" : [
+      {
+        "ceasboutique.ro" : "http://www.ceasboutique.ro/ceas/triwa-walter-falken-brown-classic-2/"
+      }
+    ],
+
+    "Triwa Loch Falken" : [
+      {
+        "ceasboutique.ro" : "http://www.ceasboutique.ro/ceas/triwa-loch-falken/"
       }
     ]
 }

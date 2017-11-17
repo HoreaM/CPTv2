@@ -46,6 +46,8 @@ def get_new_deals(new_product_list):
                                 new_product['product-name'] == old_product['product-name'] and \
                                 new_product['price'] < old_product['price']:
                     better_deals.append(new_product.copy())
+                elif 'alert' in new_product:
+                    better_deals.append(new_product.copy())
         if better_deals:
             new_deals_alert(better_deals)
 
