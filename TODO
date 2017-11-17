@@ -1,6 +1,7 @@
-TODO: add stock check
-TODO: add other retailers
-TODO: error handling
+TODO: add stock check/
+TODO: add other retailers/
+TODO: error handling with try/catch
+TODO: get next pages
 TODO: add treshold for prices
 TODO: don't save redundant data
 TODO: create log file
@@ -9,4 +10,3 @@ TODO: webpage timeout chance
 TODO: web interface
 TODO: add reduced value
 TODO: add proxy logic analog: https://github.com/hokedo/auto_scraper/blob/master/auto_scraper/tasks/get_proxy.py#L67
-TODO: get next pages
