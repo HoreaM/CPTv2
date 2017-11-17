@@ -16,7 +16,7 @@ class Emag(BaseSpider):
 
         c = result.content
         soup = BeautifulSoup(c, 'lxml')
-        products = soup.select('.js-product-data')
+        products = soup.select('.js-products-container .js-product-data')
         prod = {}
         items = []
         for product in products:
