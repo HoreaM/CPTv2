@@ -14,7 +14,7 @@ def start_spiders():
 
     # cel.ro spider
     cel = Cel(start_time)
-    new_product_list.extend(cel.start_requests())
+    #new_product_list.extend(cel.start_requests())
 
     # emag.ro spider
     emag = Emag(start_time)
@@ -22,15 +22,15 @@ def start_spiders():
 
     # pcgarage.ro spider
     pcgarage = Pcgarage(start_time)
-    new_product_list.extend(pcgarage.start_requests())
+    #new_product_list.extend(pcgarage.start_requests())
 
     # altex.ro spider
     altex = Altex(start_time)
-    new_product_list.extend(altex.start_requests())
+    #new_product_list.extend(altex.start_requests())
 
     # ceasboutique.ro spider
     ceasboutique = Ceasboutique(start_time)
-    new_product_list.extend(ceasboutique.start_requests())
+    #new_product_list.extend(ceasboutique.start_requests())
 
     # compare new data with old data
     get_new_deals(new_product_list)
