@@ -30,4 +30,5 @@ class Emag(BaseSpider):
                 prod['date'] = str(datetime.now())
                 items.append(prod.copy())
         item = min(items, key=lambda x: x.get('price'))
+        print(items.__len__())
         return item
