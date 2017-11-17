@@ -12,7 +12,7 @@ class Cel(BaseSpider):
 
     def start_scraping(self, link, product_name):
         result = requests.get(link)
-        print(result.status_code)
+        #print(result.status_code)
 
         c = result.content
         soup = BeautifulSoup(c, 'lxml')
@@ -28,4 +28,6 @@ class Cel(BaseSpider):
             prod['date'] = str(datetime.now())
             items.append(prod.copy())
         item = min(items, key=lambda x: x.get('price'))
+        print(items.__len__())
+        print(item['price'])
         return item

@@ -14,7 +14,7 @@ def start_spiders():
 
     # cel.ro spider
     cel = Cel(start_time)
-    #new_product_list.extend(cel.start_requests())
+    new_product_list.extend(cel.start_requests())
 
     # emag.ro spider
     emag = Emag(start_time)
